@@ -1,0 +1,113 @@
+/* Estilos Gerais*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #DFDFDF;
+}
+
+/* Layout */
+#area-cabecalho{
+    background-color: #CB8589;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#area-cabecalho-jogos{
+    background-color: purple;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 960px;
+    margin: 0;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 200px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #DFDFDF;
+}
+
+.conteudo-lateral{
+    background-color: #E0C2A6;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 12px;
+    padding: 5px;
+    border-bottom: 1px dotted #E0C2A6;
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #E0C2A6;
+    clear: both
+}
+
+/* formatação geral */
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: cornflowerblue;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#area-cabeçalho a:visited{
+    color: blueviolet;
+    padding: 12px;
+}
+
+h1{
+    color: #E0C2A6;
+    font-size: 22px;
+}
+
+h2{
+    color:black
+}
+
+h3{
+    color: #565656
+    padding: 5px;
+}
+
+.branco{
+    color: #DFDFDF;
+}
+
+.data-postagem{
+    font-size: 8px;
+}
+
